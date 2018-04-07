@@ -1,4 +1,9 @@
+## In this assignment we'll write a pair of functions that cache the inverse of a matrix
+## (assuming that the matrix supplied is always invertible)
+## i.e. makeCacheMatrix and cacheSolve 
 
+## The function makeCacheMatrix will be used to create a special "matrix" object that can
+## cache its inverse.
 
 makeCacheMatrix <- function(a = matrix()) {
   mymat <- NULL
